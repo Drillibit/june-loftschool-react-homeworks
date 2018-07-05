@@ -10,7 +10,7 @@ class AuthorizeProvider extends Component {
     isAuthorized: false
   };
 
-  authorzeUser = (name, password) => {
+  authorizeUser = (name, password) => {
     if (name === 'student' && password === '123') {
       this.setState({ isAuthorized: true });
       return true;
