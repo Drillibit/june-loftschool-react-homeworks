@@ -22,7 +22,7 @@ class AuthorizeProvider extends Component {
     const { isAuthorized } = this.state;
 
     return (
-      <Provider value={{ isAuthorized, authorizeUser: this.authorzeUser }}>
+      <Provider value={{ isAuthorized, authorizeUser: this.authorizeUser }}>
         {children}
       </Provider>
     );
